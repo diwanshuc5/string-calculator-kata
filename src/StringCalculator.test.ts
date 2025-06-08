@@ -6,5 +6,9 @@ test('returns 0 for empty string', () => {
 });
 
 test('returns number for single input', () => {
-  expect(add("1")).toBe(1);
+  expect(add("12")).toBe(12);
+});
+
+test('returns sum of two numbers', () => {
+  expect(add("1,2")).toBe(3);
 });
