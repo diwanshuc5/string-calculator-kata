@@ -1,6 +1,6 @@
 # string-calculator-kata
 
-A presentation of Test-Driven Development (TDD) using a string calculator.
+A presentation of Test-Driven Development (TDD) to make a string calculator.
 
 ## Description
 
