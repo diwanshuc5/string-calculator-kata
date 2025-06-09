@@ -15,6 +15,7 @@ export function add(numbers: string): number {
     if(negatives.length > 0) {
         throw new Error("negative numbers not allowed: " + negatives.join(","));
     }
+    arr = arr.filter(nums => nums <= 1000);
     sum = arr.reduce((acc, curr) => acc+curr, 0);
     //console.log(arr);
     return sum;
